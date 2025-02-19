@@ -1,0 +1,8 @@
+# Fichiers générés
+/build/
+/.gradle/
+/proguard-rules.pro
+
+# Fichiers de configuration Gradle
+build.gradle
+android_dev.sh
