@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name" translatable="false">Carwash</string>
+    <string name="welcome_message" translatable="false">Bienvenue dans Carwash !</string>
+    <string name="chatbot_title" translatable="false">Chatbot d\'assistance</string>
+    <string name="garage_list_title" translatable="false">Liste des garages</string>
+    <string name="garage_details_title" translatable="false">Détails du garage</string>
+    <!-- Ajoute d'autres chaînes de texte selon tes besoins -->
 </resources>
