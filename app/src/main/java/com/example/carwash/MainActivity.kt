@@ -34,4 +34,47 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+package com.example.carwash
 
+import android.content.Intent
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        // Bouton pour accéder au chatbot
+        findViewById<Button>(R.id.chatbotButton).setOnClickListener {
+            startActivity(Intent(this, ChatbotActivity::class.java))
+        }
+
+        // Bouton pour accéder à la liste des garages
+        findViewById<Button>(R.id.garageListButton).setOnClickListener {
+            startActivity(Intent(this, GarageListActivity::class.java))
+        }
+    }
+}
+package com.example.carwash
+
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+    }
+}
+package com.example.carwash
+
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+    }
+}
